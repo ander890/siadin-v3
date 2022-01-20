@@ -40,7 +40,7 @@ Vue.component('Select2', Select2);
 Vue.component('apexchart', VueApexCharts)
 
 axios.defaults.withCredentials = true
-axios.defaults.baseURL = 'http://localhost/siaptp_backend/public/api/';
+axios.defaults.baseURL = '';
 
 new Vue({
   store,
